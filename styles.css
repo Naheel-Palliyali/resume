@@ -1,0 +1,109 @@
+body {
+  margin: 60px auto;
+  padding-left: 50px;
+  width: 1500px;
+  background-color: rgb(255, 255, 255);
+}
+
+.content {
+  width: 1336px;
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  grid-gap: 10px;
+}
+
+/* Name */
+h1 {
+  margin: 0;
+  font-family: "Merriweather", serif;
+  font-size: 54px;
+  color: black;
+}
+
+/* Roles font */
+h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: rgb(180, 180, 180);
+  margin: 5px 0;
+  padding-bottom: 8px;
+}
+
+.Roles {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: rgb(180, 180, 180);
+  margin: -4px 2px;
+}
+
+/* paragraph text */
+h3 {
+  list-style-type: none;
+  font-family: "Lato", sans-serif;
+  line-height: 22px;
+  font-weight: 400;
+  font-size: 14px;
+  color: grey;
+  margin: 0;
+}
+
+.SOP {
+  width: 600px;
+  font-family: "merriweather", sans-serif;
+  line-height: 22px;
+  font-weight: 400;
+  font-size: 12px;
+  color: grey;
+  padding: 8px 0;
+}
+
+.section-listings {
+  border-left: 2px solid rgb(231, 231, 231);
+  padding-left: 24px;
+}
+/* section title */
+.section-title {
+  margin-top: 32px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: skyblue;
+}
+
+/* company experience */
+h2 {
+  list-style-type: none;
+  font-family: "lato", serif;
+  font-size: 18px;
+  color: black;
+  margin: 0;
+}
+
+.location-designation {
+  list-style-type: none;
+  font-family: "lato", serif;
+  font-weight: 300;
+  color: black;
+  margin: 0;
+}
+
+/* section description */
+.description {
+  margin: 0;
+  font-family: "merriweather", sans-serif;
+  line-height: 22px;
+  font-weight: 500;
+  font-size: 12px;
+  color: grey;
+  /* border-left: 2px solid rgb(238, 238, 238);
+  padding-left: 8px; */
+}
+
+ul {
+  list-style-type: none;
+  position: relative;
+  padding-left: 0px;
+  margin-top: -0px;
+}
